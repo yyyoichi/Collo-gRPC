@@ -2,9 +2,9 @@
 // versions:
 // - protoc-gen-go-grpc v1.3.0
 // - protoc             v3.12.4
-// source: proto/collo.proto
+// source: collo.proto
 
-package grpc
+package collo
 
 import (
 	context "context"
@@ -132,5 +132,5 @@ var ColloService_ServiceDesc = grpc.ServiceDesc{
 			ServerStreams: true,
 		},
 	},
-	Metadata: "proto/collo.proto",
+	Metadata: "collo.proto",
 }
