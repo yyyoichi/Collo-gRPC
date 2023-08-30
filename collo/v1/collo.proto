@@ -1,7 +1,7 @@
 syntax = "proto3";
 import "google/protobuf/timestamp.proto";
 
-option go_package = "yyyoichi/Collo-API/collo/v1;collov1";
+option go_package = "yyyoichi/Collo-API/proto/collo/v1;collov1";
 
 package collo.v1;
 
