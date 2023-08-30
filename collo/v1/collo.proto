@@ -6,10 +6,10 @@ option go_package = "yyyoichi/Collo-API/gen/proto/collo/v1;collov1";
 package collo.v1;
 
 service ColloService {
-	rpc ColloStream (ColloStreamRequest) returns (stream ColloStreamResponse); 
+	rpc ColloStream (ColloRequest) returns (stream ColloStreamResponse); 
 }
 
-message ColloStreamRequest {
+message ColloRequest {
 	string keyword = 1;
   google.protobuf.Timestamp from = 2;
   google.protobuf.Timestamp until = 3;
