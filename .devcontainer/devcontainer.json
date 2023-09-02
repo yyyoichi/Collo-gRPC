@@ -1,0 +1,8 @@
+{
+  "name": "COLLO:gRPC",
+  "dockerComposeFile": "../.docker/compose.local.yml",
+  "service": "collo-grpc",
+  "workspaceFolder": "/workspaces/grpc",
+  "customizations": {},
+  "shutdownAction": "none"
+}

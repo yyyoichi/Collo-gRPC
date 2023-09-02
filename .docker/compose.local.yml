@@ -1,0 +1,13 @@
+version: '3'
+volumes:
+  collo_app_node_modules:
+
+services:
+  collo-grpc:
+    build:
+      context: ../
+      dockerfile: ./.docker/dockerfile.local
+    volumes:
+      - ../:/workspaces/grpc:cached
+    container_name: "collo-grpc"
+    tty: true
